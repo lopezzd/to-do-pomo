@@ -1,5 +1,5 @@
 {
-  "homepage":"https://lopezzd.github.io/to-do-pomo",
+  "homepage": "https://lopezzd.github.io/to-do-pomo",
   "name": "myapp",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
